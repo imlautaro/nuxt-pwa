@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
-	modules: ['@kevinmarrec/nuxt-pwa'],
+	modules: ['@kevinmarrec/nuxt-pwa', 'nuxt-windicss'],
 	pwa: {
 		icon: {
 			maskablePadding: 0,
